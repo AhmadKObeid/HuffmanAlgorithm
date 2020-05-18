@@ -307,7 +307,8 @@ function initCanvas()
 	midLevel = document.createElement("tr");
 	bottomLevel = document.createElement("td");
 	bottomLevel.align = "center";
-	var txtNode = document.createTextNode("Animation Speed"); 
+	var txtNode = document.createTextNode("Animation Speed");
+
 	midLevel.appendChild(bottomLevel);
 	bottomLevel.appendChild(txtNode);
 	newTable.appendChild(midLevel);	
@@ -356,13 +357,13 @@ function initCanvas()
 
 	
 
-	widthEntry = addControlToAnimationBar("Text", canvas.width);
+	widthEntry = addControlToAnimationBar("Text1", canvas.width);
 	widthEntry.size = 4;
 	widthEntry.onkeydown = this.returnSubmit(widthEntry, animationManager.changeSize.bind(animationManager), 4, true);
 
 
 	
-	heightEntry = addControlToAnimationBar("Text", canvas.height);
+	heightEntry = addControlToAnimationBar("Text1", canvas.height);
 	heightEntry.onkeydown = this.returnSubmit(heightEntry, animationManager.changeSize.bind(animationManager), 4, true);
 
 	heightEntry.size = 4;

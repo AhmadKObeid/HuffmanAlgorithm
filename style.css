@@ -15,11 +15,49 @@ body {
 
 .VisualizationMainPage #mainContent {
 	/*padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
-	background: #FFFFFF;
+	background: rgb(10, 10, 10);
 }
+div.ui-widget-content{
+	border: 2px solid #000000;
+}
+a.ui-slider-handle.ui-state-default.ui-corner-all{
+	border: 2px solid #000000;
 
-
-
+}
+#GeneralAnimationControls{
+	margin-left: 100px;
+}
+#algoControlSection{
+	height: 29px;
+}
+#canvas{
+	border: 2px solid;
+	margin-left: 190px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: rgb(215,235,240);
+}
+input[value="Skip Back"]{
+	visibility: hidden;
+}
+input[value="Step Back"]{
+	visibility: hidden;
+}
+input[value="Pause"]{
+	visibility: hidden;
+}
+input[value="Skip Forward"]{
+	visibility: hidden;
+}
+input[value="Step Forward"]{
+	visibility: hidden;
+}
+input[value="Change Canvas Size"]{
+	visibility: hidden;
+}
+input[type="Text1"]{
+	visibility: hidden;
+}
 .VisualizationMainPage #container {
 
 
@@ -31,8 +69,8 @@ body {
 
 .VisualizationMainPage #algoControlSection
 {
-	background: rgb(46, 110, 207);
-	color:#c05320;
+	background: rgb(215,235,240);
+	color: #000000;
 
 }
 
@@ -40,14 +78,15 @@ body {
 .VisualizationMainPage #generalAnimationControlSection
 {
 	background: #DDEEDD;
-	color:#006600;
+	color: #000000;
 
 }
 
 .VisualizationMainPage  #header {
-	background: #006633;
-	color:#ffCC33;
+	background:rgb(215,235,240);
+	color: #000000;
 	padding: 0 10px 0 20px;
+	
 
 }
 
